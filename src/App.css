@@ -1,0 +1,55 @@
+.card{
+  width: 100%;
+  /* margin-left: 10px ; */
+  /* margin-right: 10px; */
+  border-radius: 10px;
+  /* display: flex; */
+ /* flex-wrap: wrap;  */
+ /* border: 0.1px solid #292b2c; */
+ box-shadow: 1px 1px 1px 1px #d1d1d1;
+}
+video{
+  border-radius: 10px ;
+}
+.row{
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+}
+.card h1{
+  text-transform: capitalize;
+  font-size: 21px;
+  color: #292b2c;
+  padding:2px 0  2px 17px;
+  /* padding: 5px 0; */
+}
+.bu{
+  border-radius: 10px;
+  /* border: 1px solid black; */
+}
+.rate button{
+  background-color:#003366;
+  border: 2px solid #003366;
+  border-radius: 5px;
+  color: white;
+  /* margin: 10px 0; */
+  text-align: end;
+  font-size: 17px;
+  align-self: flex-end;
+  padding: 8px 18px;
+
+}
+span{
+  margin: auto 0;
+  
+}
+.rate{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 18px;
+  margin: 10px 0;
+}
